@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign up form</title>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      /* --------------------
+     Add your styling here
+     -------------------- */
+    </style>
+  </head>
+  <body>
+    <div class="sign-up-form">
+      <!----------------------
+    Add your markup here
+    ------------------------>
+      <form id="form" action="/">
+        <h1>Registration form</h1>
+        <div class="input-control">
+          <label for="first-name">First Name:</label>
+          <input id="first-name" name="first-name" type="text" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="last-name">Last Name:</label>
+          <input id="last-name" name="last-name" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="email">Email Address:</label>
+          <input id="email" name="email" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password">Password:</label>
+          <input id="password" name="password" type="password" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password-confirm">Password Confirmation:</label>
+          <input
+            id="password-confirm"
+            name="password-confirm"
+            type="password"
+          />
+          <div class="error"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="submit-message" id="submit-message"></div>
+      </form>
+    </div>
+    <script>
+      /* --------------------
+     Add your code here
+    --------------------- */
+    </script>
+  </body>
+</html>
